@@ -1,0 +1,35 @@
+1st ans)
+vim +<line number> <filename>
+2nd ans)
+This can be done using the sort command.
+$ sort sample.txt
+3rd ans)
+The export command is used to set and reload the environment variables. For example, if you want to set the Java path, then the command would be:
+$ export JAVA_HOME = /home/user/Java/bin
+4th ans)
+$ service <servicename> status
+5th ans)
+$ service --status-all
+6th ans)
+To start:
+$ service <servicename> start
+To stop:
+$ service <servicename> start
+7th ans)
+This command is used to display the free, used, swap memory available in the system. 
+Typical free command output. The output is displayed in bytes.
+$ free
+8th ans)
+In Linux-like operating systems, the chmod command is used to change the access mode of a file.
+The name is an abbreviation of change mode.
+Syntax :
+chmod [reference][operator][mode] file... 
+9th ans)
+The grep filter searches a file for a particular pattern of characters, and displays all lines that contain that pattern. The pattern that is searched in the file is referred to as the regular expression (grep stands for global search for regular expression and print out). 
+Syntax: 
+grep [options] pattern [files]
+10th ans)
+GNU nano is a friendly and convenient text editor like vi and emac. It offers many other extra features like word searching, replacing, jump to a line or column, filename tab completion, auto-indentation, etc.
+Nano is a clone of the pico text editor. Nano is not pre-installed in all distros, but Ubuntu has it.
+Syntax:
+nano
